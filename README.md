@@ -2,32 +2,16 @@
 
 A quick-start Angular project that contains code to add and customize bubbles in the Syncfusion Angular Maps component. This project also contains code to configure a few of the component’s basic features, like changing bubble type, customizing the bubble, enabling multiple bubble group, and tooltips.
 
-# Project pre-requisites
+Refer to the following bubble documentation on the Syncfusion Angular Maps component:  
+https://ej2.syncfusion.com/angular/documentation/maps/bubble  
 
-Make sure that you have the compatible versions of TypeScript and Angular in your machine before starting to work on this project.
+Check out this online example of the Angular Maps component with Bubble:  
+https://ej2.syncfusion.com/angular/demos/#/material3/maps/bubble  
 
-Angular 4+
+## Project prerequisites
 
-TypeScript 2.6+
+Make sure that you have the latest versions of NodeJS and Visual Studio Code in your machine before starting to work on this project.
 
-# How to run this application?
+### How to run this application?
 
-To run this application, you need to first clone the how-to-add-and-customize-bubbles-in-the-angular-maps-component repository and then navigate to its appropriate path where it has been in your system.
-
-To do so, open the command prompt and run the below commands one after the other.
-
-git clone angular-example
-
-cd angular-example
-
-# Installing
-
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The npm install command will install all the needed angular packages into your current project and to do so, run the below command.
-
-npm install
-
-# Running on development server
-
-Run ng serve command for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-
+To run this application, you need to clone the `how-to-add-and-customize-bubbles-in-the-angular-maps-component` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `ng serve` command.
