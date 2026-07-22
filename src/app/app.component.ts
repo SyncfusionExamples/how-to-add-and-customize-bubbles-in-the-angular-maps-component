@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
 import * as worldMapData from './worldMap.json';
 import { Maps, Bubble} from '@syncfusion/ej2-angular-maps';
+import { MapsModule, MapsTooltipService } from '@syncfusion/ej2-angular-maps';
 Maps.Inject(Bubble);
+
 @Component({
   selector: 'app-root',
+  imports: [MapsModule],
+  providers: [MapsTooltipService],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
